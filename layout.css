@@ -1,0 +1,494 @@
+
+
+            /*------------header-------------*/
+.navbar a{
+	color:black;
+	font-size:17px;
+	font-weight:600;
+	
+}
+
+.navbar-nav a:hover{
+	color:red;
+}
+
+			 /*------------header end-------------*/
+			 
+			 
+			  /*------------bg-img start-------------*/
+			  
+	.bg-img{
+		
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("img/hero-bg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	font-family:raleway;
+
+}
+
+.bg-content{
+	padding:80px 0;
+
+}
+
+.bg-content h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.bg-content p{
+	font-size:25px;
+	
+}
+.bg-content button:hover{
+	background-color:transparent;
+	border:1px solid #fff;
+}
+
+				 /*------------bg-img end-------------*/
+				 
+				 
+				 
+				  /*------------beand-list start-------------*/
+				  
+		
+	.icon{
+	padding:50px 0;
+}	  
+
+.icon-list{
+	padding: 10px 30px;
+  }
+.icon-list img {
+	width:100%;
+	height:auto 0;
+	filter:grayscale(100%);
+	opacity:0.5;
+}	  
+.icon-list:hover  img{
+	  filter: grayscale(0%);
+	  opacity: 1;
+  }
+  
+  .circle{
+	 text-align: center;
+	 padding: 20px 0;
+  }
+  .circle span{
+	  display: inline-block;
+	  width: 12px;
+	  height: 12px;
+	  border:  1px solid red;
+	  background-color: #fff;
+	  opacity: 0.8;
+	  border-radius: 50%;
+	  margin: 0 3px;
+	  cursor: pointer;
+  }
+  .circle span:hover{
+	  background-color: red;
+  }
+  .circle span.active{
+	   background-color:red;
+  }
+				  
+				  
+				  
+				  
+				   /*------------brand-list end-------------*/
+				   
+				   
+				   /*------------about start-------------*/
+				   .about{
+					   position:relative;
+					   padding:50px 0;
+					  
+				   }
+				   .about:after{
+					   content:"";
+					   position:absolute;
+					   height:100%;
+					   width:100%;
+					   left:0;
+					   top:0;
+					   background:black;
+					   transform:skewY(-3deg);
+					   z-index:-1;
+				   }
+				   .about-itm{
+					   
+					   height:
+					   background-color:
+					   
+				   }
+				   .about-icon h5{
+					  font-weight:bold;
+				   }
+				   .about-itm h2{
+					  font-weight:bold;
+				   }
+				  
+				   
+				   
+				   /*------------anout end------------*/
+				   
+				   
+				   /*----number start--------------*/
+				   .number{
+					   background-color:;
+					   padding:50px 0;
+				   }
+				   .num-icon h1{
+					   font-weight:bold;
+				   }
+				   
+				   
+				    /*----number end--------------*/
+					
+					
+					/*----modi start--------------*/
+				   .modi{
+					   background-color:black;
+					   padding:50px 0;
+				   }
+				   .modi-icon{
+					   height:150px;
+					   background-color:white;
+				   }
+				   
+				   .modi-content{
+					   height:300px;
+					   background-color:white;
+				   }
+				   
+				   
+				    /*----modi end--------------*/
+					
+					
+					/*----services start--------------*/
+				   .services{
+					   position:relative;
+					   height:px;
+					   padding:50px 0;
+				   }
+				   .services:after{
+					   content:"";
+					   position:absolute;
+					   height:100%;
+					   width:100%;
+					   left:0;
+					   top:0;
+					   background-color:black;
+					   transform:skewY(-3deg);
+					   z-index:-1;
+				   }
+				   .sec-title{
+					   
+					   height:100px;
+					   background-color:;
+				   }
+				   
+				   .sec-icon{
+					   display:flex;
+					   background-color:#2b2b2b;
+					   border-radius:10px;
+					   padding:30px;
+				   }
+				   
+				   
+				   
+				    /*----services end--------------*/
+					
+					
+					
+					/*----portfolio start--------------*/
+				   .portfolio{
+					   background-color:;
+				
+					   padding:50px 0;
+				   }
+				   .port-title{
+					   
+					   height:
+					   background-color:;
+				   }
+				   
+				   .port-img img{
+					   margin-top:30px;
+					   width:100%;
+				   }
+				   .port-title button:hover{
+					 background-color:#dc3545;
+				   }
+				   
+				   
+				   
+				    /*----portfolio end--------------*/	
+					
+					
+					
+					
+					/*---TESTIMONIALS start--------------*/
+				   .TESTIMONIALS{
+					   background-color:;
+					   
+					   padding:50px 0;
+				   }
+				   .test-title{
+					   
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .test-img{
+					   height:;
+					   background-color:;
+				   }
+				   .card {
+					   border:0;
+					   border-radius:10px;
+				   }
+				   
+				   
+				    /*----TESTIMONIALS end--------------*/	
+					
+					
+						/*---pricing start--------------*/
+				   .pricing{
+					   position:relative;
+					   
+					   padding:50px 0;
+				   }
+				   
+				   .pricing:after{
+					   content:"";
+					   position:absolute;
+					   height:100%;
+					   width:100%;
+					   left:0;
+					   top:0;
+					   background-color:black;
+					   transform:skewY(-3deg);
+					   z-index:-1;
+				   }
+				   .pric-title{
+					   
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .pric-img{
+					   height:;
+					   background-color:#2b2b2b;
+					   border-radius:10px;
+				   }
+				   
+				   .pric1-img{
+					   height:;
+					   background-color:#e03a3c;
+					    border-radius:10px;
+				   }
+				   .pric1-img button:hover{
+					   background-color:#e03a3c;
+					   color:white;
+				   }
+				   .pric-img button:hover{
+					   background-color:#2b2b2b;
+					   color:white;
+				   }
+				   .pric-img .head-tit{
+					   font-size:20px;
+				   }
+				   .pric1-img .head-tit{
+					   font-size:20px;
+				   }
+				   
+				   
+				    /*----price end--------------*/	
+					
+					
+					
+						/*---qustion start--------------*/
+				   .qustion{
+					   background-color:;
+					   height:x;
+					   padding:50px 0;
+				   }
+				   .qust-title{
+					   
+					   height:px;
+					   background-color:;
+				   }
+				   
+				   .qust-con{
+					   height:;
+					   background-color:;
+				   }
+				   .accordion-item h2 button:hover{
+				     color:#e03a3c;
+				   }
+				  .accordion-button:focus{
+					  box-shadow: none;
+				  } 
+				   .accordion-header{
+					   background-color: none;
+				   }
+				   .accordion-button:not(.collapsed){
+					   background-color: white;
+					  box-shadow:none;
+						color: red;
+						
+				   }
+				   .accordion-header button{
+					   font-size:20px;
+				   }
+				    /*----qustnoneion end--------------*/	
+					
+					
+					/*---team start--------------*/
+				   .team{
+					 position:relative;
+					   font-family:raleway;
+					   padding:50px 0;
+				   }
+				   
+				   .team:after{
+					   content:"";
+					   position:absolute;
+					   height:100%;
+					   width:100%;
+					   left:0;
+					   top:0;
+					   background-color:black;
+					   transform:skewY(-3deg);
+					   z-index:-1;
+				   }
+				   .team-title{
+					   
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .team-img{
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .card-body p{
+					   color:#999;
+				   
+				   }
+				   
+				   
+				    /*----team end--------------*/	
+					
+					
+					/*---contact start--------------*/
+				   .contact{
+					   background-color:;
+					   
+					   padding:50px 0;
+				   }
+				   .cont-title{
+					   
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .address iconify-icon{
+					  border:dotted 2px #e03a3c;
+					   border-radius:25px;
+					   padding:5px;
+				   }
+				   
+				   .address-1{
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .address-2{
+					   height:;
+					   background-color:;
+				   }
+				   
+				   .address-3{
+					   height:;
+					   background-color:;
+				   }
+				   .address{
+					   color:#444444;
+				   }
+				   
+				    /*----contact end--------------*/	
+					
+					
+					/*---Presento start--------------*/
+				   .Presento{
+					   background-color:#2b2b2b;
+					   padding:50px 0;
+					   
+				   }
+				   
+				   
+				   .pres-list{
+					   height:
+					   background-color:
+				   }
+				   .pres-list a{
+					   color:#999;
+					   text-decoration:none;
+				   }
+				   
+				   .base1 p:hover{
+					   color:white;
+					   
+				   }
+				   .base1 p iconify-icon{
+					   vertical-align: sub;
+				   }
+				   .out-side{
+					border: 2px solid white;
+					border-radius:5px;
+					background: #fff;
+					padding: 1px;
+					width: 90%;
+					position: absolute;
+					}
+					.subscribe{
+						position: relative;
+					}
+					.sub{
+					position: absolute;
+					transform: translateY(-3px);
+					border-radius:5px;
+					background-color:#e03a3c;
+					text-align: center;
+					font-size: 16px;
+					color: #fff;
+					height:33px;
+					border: 1px solid #e03a3c ;
+					line-height: 30px;
+					padding: 0px 24px;
+					cursor: pointer;
+					}
+					.out-side input{
+						border:0;
+					}
+					   
+				    /*----Presento end--------------*/	
+					
+					/*---Presento start--------------*/
+				   .end{
+					   background-color:black;
+					   height:px;
+					   
+				   }
+				   
+				   
+				   .end-list{
+					   height:;
+					   background-color:;
+				   }
+				   
+				   
+				    /*----Presento end--------------*/	
