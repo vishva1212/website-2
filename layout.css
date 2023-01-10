@@ -8,10 +8,13 @@
 	
 }
 
-.navbar-nav a:hover{
-	color:red;
-}
 
+ .navbar-light .navbar-nav .nav-link:hover {
+    color:#e03a3c;
+}
+.dropdown-menu a:hover{
+	color:#e03a3c;
+}
 			 /*------------header end-------------*/
 			 
 			 
@@ -54,6 +57,7 @@
 		
 	.icon{
 	padding:50px 0;
+	font-family:"raleway" ,sans-serif;
 }	  
 
 .icon-list{
@@ -102,6 +106,7 @@
 				   .about{
 					   position:relative;
 					   padding:50px 0;
+					   font-family:"raleway" ,sans-serif;
 					  
 				   }
 				   .about:after{
@@ -117,7 +122,7 @@
 				   }
 				   .about-itm{
 					   
-					   height:
+					   height:;
 					   background-color:
 					   
 				   }
@@ -127,10 +132,13 @@
 				   .about-itm h2{
 					  font-weight:bold;
 				   }
+				   .about-itm button iconify-icon{
+					   vertical-align: sub;
+				   }
 				  
 				   
 				   
-				   /*------------anout end------------*/
+				   /*------------about end------------*/
 				   
 				   
 				   /*----number start--------------*/
@@ -148,19 +156,55 @@
 					
 					/*----modi start--------------*/
 				   .modi{
-					   background-color:black;
+					   background-color:;
 					   padding:50px 0;
+					   font-family:"raleway" ,sans-serif;
 				   }
 				   .modi-icon{
-					   height:150px;
-					   background-color:white;
+					   height:;
+					   background-color:;
 				   }
 				   
 				   .modi-content{
-					   height:300px;
-					   background-color:white;
+					   height:;
+					   background-color:;
 				   }
-				   
+				   .abt-tab{
+					   border:none;
+				   }
+				   .abt-tab .nav-item{
+					   width:25%;
+					   flex:0 0 auto;
+				   }
+				    .abt-tab .nav-item .nav-link{
+						border:solid 1px #ccc;
+						margin:0 15px;
+						color:black;
+						font-size:22px;
+						display:flex;
+						justify-content:flex-start;
+						align-items:flex-start;
+						padding:20px;
+					}
+					.abt-tab .nav-item .nav-link:hover{
+						color:white;
+						background-color:#e03a3c;
+					}
+					.abt-tab .nav-item  .nav-link span{
+						line-height:20px;
+						font-size:20px;
+					}
+					.abt-tab .nav-item .nav-link >iconify-icon{
+						margin-right:10px;
+						
+					}
+					.tab-pane{
+						padding-top:20px;
+					}
+					
+				   .nav-link .active{
+					   
+				   }
 				   
 				    /*----modi end--------------*/
 					
@@ -170,6 +214,7 @@
 					   position:relative;
 					   height:px;
 					   padding:50px 0;
+					   font-family:"raleway" ,sans-serif;
 				   }
 				   .services:after{
 					   content:"";
@@ -204,7 +249,7 @@
 					/*----portfolio start--------------*/
 				   .portfolio{
 					   background-color:;
-				
+						font-family:"raleway" ,sans-serif;
 					   padding:50px 0;
 				   }
 				   .port-title{
@@ -220,8 +265,76 @@
 				   .port-title button:hover{
 					 background-color:#dc3545;
 				   }
+				     .folio-items{
+				  position:relative;
+				  overflow:hidden;
+			  }
+			  .folio-items img{
+				  transition: all ease-in-out 0.3s;
+			  }
+			  .folio-items::before{
+				  content: "";
+			  background: rgba(17, 17, 17, 0.6);
+			  position: absolute;
+			  left: 0;
+			  right: 0;
+			  top: 0;
+			  bottom: 0;
+			  transition: all ease-in-out 0.3s;
+			  z-index: 2;
+			  opacity: 0;
+			  }
+			  .mirror{
+				position: absolute;
+				opacity: 0;
+				bottom: 20px;
+				margin: 25px;
+				transform: translateY(20px);
+				z-index:3;
+			}
+				 .foliobox1{
+				padding-bottom: 25px;
+				 }
+				.foliobox1 h2{
+				color:#fff;
+				font-size: 23px;
+				padding-top: 15px;
+				line-height: 25px;
+				font-family: "Raleway ", sans-serif;
+			   }
+			   .foliobox1 p{
+				   color: grey;
+				 font-size: 16px;
+				 font-family:italic;
+			   }
+			  .foliobox-icon iconify-icon{
 				   
-				   
+				  margin-left:5px;
+				 padding:0 3px;
+				 font-size:20px;
+			  } 
+			  .foliobox-icon a:hover{
+				   color:white;
+				
+			  } 
+			  .foliobox-icon{
+				position: absolute;
+				bottom: 5px;
+				opacity: 1;
+				display: flex;
+				left: -11px;
+				}
+				.folio-items:hover .mirror{
+					opacity:1;
+				}
+				.folio-items:hover::before{
+					opacity:1;
+				}
+				.folio-items:hover img{
+					transform:scale(1.2);
+				}
+							   
+							   
 				   
 				    /*----portfolio end--------------*/	
 					
@@ -231,7 +344,7 @@
 					/*---TESTIMONIALS start--------------*/
 				   .TESTIMONIALS{
 					   background-color:;
-					   
+					   font-family:"raleway" ,sans-serif;
 					   padding:50px 0;
 				   }
 				   .test-title{
@@ -248,7 +361,17 @@
 					   border:0;
 					   border-radius:10px;
 				   }
-				   
+				   .carousel-indicators [data-bs-target]{
+					   background-color:red;
+					   transform:translateY(70px);
+					   height:15px;
+					   width:15px;
+					   border-radius:50%;
+				   }
+				   .carousel-inner{
+					   padding:50px 0px;
+					   
+				   }
 				   
 				    /*----TESTIMONIALS end--------------*/	
 					
@@ -288,12 +411,23 @@
 					   background-color:#e03a3c;
 					    border-radius:10px;
 				   }
+				   .pric-img button{
+					   color:white;
+					   font-family:"raleway" ,sans-serif;
+					   border:#2b2b2;
+					   
+				   }
+				   .pric1-img button{
+					   color:white;
+					   font-family:"raleway" ,sans-serif;
+					   
+				   }
 				   .pric1-img button:hover{
 					   background-color:#e03a3c;
 					   color:white;
 				   }
 				   .pric-img button:hover{
-					   background-color:#2b2b2b;
+					   background:#2b2b2b;
 					   color:white;
 				   }
 				   .pric-img .head-tit{
@@ -302,6 +436,7 @@
 				   .pric1-img .head-tit{
 					   font-size:20px;
 				   }
+				   
 				   
 				   
 				    /*----price end--------------*/	
@@ -313,6 +448,7 @@
 					   background-color:;
 					   height:x;
 					   padding:50px 0;
+					   font-family:"raleway" ,sans-serif;
 				   }
 				   .qust-title{
 					   
@@ -347,6 +483,7 @@
 					
 					/*---team start--------------*/
 				   .team{
+					   font-family:"raleway" ,sans-serif;
 					 position:relative;
 					   font-family:raleway;
 					   padding:50px 0;
@@ -369,9 +506,10 @@
 					   background-color:;
 				   }
 				   
-				   .team-img{
-					   height:;
-					   background-color:;
+				   .team-img:hover .icon-team{
+					   opacity:1;
+					   transform:translateY(0);
+					   
 				   }
 				   
 				   .card-body p{
@@ -379,6 +517,32 @@
 				   
 				   }
 				   
+				   .icon-team{
+					   text-align:center;
+					   bottom:110px;
+					   right:0;
+					   left:0;
+					   opacity:0;
+					   font-size:23px;
+					   width:100%;
+					   padding:20px 0;
+					   bottom:100px;
+					   position:absolute;
+					   transform:translateY(-20px);
+					   transition:all 0.5s ease;
+				   }
+				   .icon-team iconify-icon{
+					   border:solid 1px none;
+					   background:#e03a3c;
+					   border-radius:50px;
+					   padding:5px;
+				   }
+				   .icon-team iconify-icon:hover{
+					   background-color:black;
+				   }
+				   . {
+					   
+				   }
 				   
 				    /*----team end--------------*/	
 					
@@ -386,13 +550,27 @@
 					/*---contact start--------------*/
 				   .contact{
 					   background-color:;
-					   
+					   font-family:"raleway" ,sans-serif;
 					   padding:50px 0;
 				   }
-				   .cont-title{
+				   .cont-title h1{
+					   position:relative;
+					   padding:20px 0;
+					  
 					   
-					   height:;
-					   background-color:;
+				   }
+				   
+				   .cont-title p{
+					   padding:20px 0;
+				   }
+				    .cont-title h1:after{
+						 content:"";
+					   position:absolute;
+					   border:2px solid #e03a3c;
+					   width: 50px;
+					   bottom: 0;
+					   right: 48%;
+					   margin-top:20px 0;
 				   }
 				   
 				   .address iconify-icon{
@@ -426,7 +604,7 @@
 				   .Presento{
 					   background-color:#2b2b2b;
 					   padding:50px 0;
-					   
+					   font-family:"raleway" ,sans-serif;
 				   }
 				   
 				   
@@ -481,13 +659,20 @@
 				   .end{
 					   background-color:black;
 					   height:px;
-					   
+					   font-family:"raleway" ,sans-serif;
+				   }
+				   .end-list{
+					   justify-content:space-between;
 				   }
 				   
-				   
-				   .end-list{
-					   height:;
-					   background-color:;
+				  .end-list iconify-icon{
+					   border:solid 1px none;
+					   background:#2b2b2b;
+					   border-radius:4px;
+					   padding:5px;
+				   }
+				   .end-list iconify-icon:hover{
+					   background-color:#e03a3c ;
 				   }
 				   
 				   
