@@ -26,12 +26,12 @@
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
-	font-family:raleway;
-
+	
 }
 
 .bg-content{
 	padding:80px 0;
+	font-family:"raleway" ,sans-serif;
 
 }
 
@@ -160,15 +160,9 @@
 					   padding:50px 0;
 					   font-family:"raleway" ,sans-serif;
 				   }
-				   .modi-icon{
-					   height:;
-					   background-color:;
-				   }
+				  
 				   
-				   .modi-content{
-					   height:;
-					   background-color:;
-				   }
+				   
 				   .abt-tab{
 					   border:none;
 				   }
@@ -187,8 +181,8 @@
 						padding:20px;
 					}
 					.abt-tab .nav-item .nav-link:hover{
-						color:white;
-						background-color:#e03a3c;
+						color:#e03a3c;
+					
 					}
 					.abt-tab .nav-item  .nav-link span{
 						line-height:20px;
@@ -201,10 +195,17 @@
 					.tab-pane{
 						padding-top:20px;
 					}
-					
-				   .nav-link .active{
-					   
-				   }
+					.abt-tab .nav-item .nav-link.active{
+						background:#e03a3c;
+						color:white;
+						border-color:#e03a3c;
+					}
+				    .tab-pane ul {
+						color:gray;
+					}
+					.tab-pane p {
+						color:gray;
+					}
 				   
 				    /*----modi end--------------*/
 					
@@ -262,8 +263,9 @@
 					   margin-top:30px;
 					   width:100%;
 				   }
-				   .port-title button:hover{
+				   .cont-title button:hover{
 					 background-color:#dc3545;
+					 color:white;
 				   }
 				     .folio-items{
 				  position:relative;
@@ -313,7 +315,7 @@
 				 padding:0 3px;
 				 font-size:20px;
 			  } 
-			  .foliobox-icon a:hover{
+			   .mirror a:hover{
 				   color:white;
 				
 			  } 
@@ -485,7 +487,7 @@
 				   .team{
 					   font-family:"raleway" ,sans-serif;
 					 position:relative;
-					   font-family:raleway;
+					   
 					   padding:50px 0;
 				   }
 				   
