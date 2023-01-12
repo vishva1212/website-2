@@ -7,6 +7,12 @@
 	font-weight:600;
 	
 }
+.header{
+	position:fixed;
+	width:100%;
+	background-color:white;
+	z-index:3;
+}
 
 
  .navbar-light .navbar-nav .nav-link:hover {
@@ -31,7 +37,7 @@
 
 .bg-content{
 	padding:80px 0;
-	font-family:"raleway" ,sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -160,7 +166,9 @@
 					   padding:50px 0;
 					   font-family:"raleway" ,sans-serif;
 				   }
-				  
+				  .nav-item iconify-icon{
+						font-size:50px;
+					}
 				   
 				   
 				   .abt-tab{
@@ -205,6 +213,10 @@
 					}
 					.tab-pane p {
 						color:gray;
+					}
+					.tab-pane ul{
+						list-style:none;
+						padding-left:5px;
 					}
 				   
 				    /*----modi end--------------*/
@@ -255,7 +267,7 @@
 				   }
 				   .port-title{
 					   
-					   height:
+					   height:;
 					   background-color:;
 				   }
 				   
@@ -315,7 +327,11 @@
 				 padding:0 3px;
 				 font-size:20px;
 			  } 
-			   .mirror a:hover{
+			  .mirror .foliobox-icon a{
+				   color:gray;
+				
+			  } 
+			   .mirror .foliobox-icon a:hover{
 				   color:white;
 				
 			  } 
@@ -371,7 +387,7 @@
 					   border-radius:50%;
 				   }
 				   .carousel-inner{
-					   padding:50px 0px;
+					   padding:30px 20px;
 					   
 				   }
 				   
@@ -438,6 +454,10 @@
 				   .pric1-img .head-tit{
 					   font-size:20px;
 				   }
+				   .btn-outline-light {
+						color: #f8f9fa;
+						border-color: #808080a6;
+					}
 				   
 				   
 				   
