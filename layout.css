@@ -696,6 +696,21 @@
 				   .end-list iconify-icon:hover{
 					   background-color:#e03a3c ;
 				   }
+				    .pres-list h4{
+					   position:relative;
+					   padding:10px 0;
+					  
+					   
+				   }
+				    .pres-list h4:after{
+						 content:"";
+					   position:absolute;
+					   border:1px solid #e03a3c;
+					   width: 30px;
+					   bottom: 0;
+					   right:87%;
+					   margin-top:20px 0;
+				   }
 				   
 				   
 				    /*----Presento end--------------*/	
